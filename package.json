@@ -1,0 +1,19 @@
+{
+  "name": "final_project_william",
+  "version": "1.0.0",
+  "description": "",
+  "main": "newsServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William He",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^5.4.0",
+    "node-fetch": "^2.6.9",
+    "nodemon": "^2.0.22"
+  }
+}

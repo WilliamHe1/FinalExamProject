@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+    <link href="/style.css" rel="stylesheet" type="text/css">
+	<title>News Start Page</title>
+</head>
+
+<body>
+	<h1>Please Type In Keyword(s) To Get Some Related News Headlines</h1>
+    <form action="/currentHeadlines" method = "post">
+
+        <input type = "text" name = "keyWord" required>
+        <br>
+        <br>
+        <button type="submit">Submit Keywords</button>
+        <br>
+        <br>
+        <button type="reset">Reset Input Field</button>
+    
+    </form>
+        <br>
+
+    <form action = "/pastHeadlines" method = "get">
+        <button type="submit">View Past Headlines</button>
+
+    </form>
+
+	
+</body>
+
+</html>
