@@ -11,11 +11,11 @@ const bodyParser = require("body-parser");//for post
 const pathApp = require("path"); //for mac and windows compatibility with the slashes for paths.
 const fetch = require("node-fetch");
 
-const portNum =  process.argv.at(2);
-if(isNaN(portNum)){
-    console.log("You must put in a port number.");
-    process.exit(0);
-}
+const portNum =  4000;
+//if(isNaN(portNum)){
+   // console.log("You must put in a port number.");
+    //process.exit(0);
+//}
 
 //Prepare the database
 const { MongoClient, ServerApiVersion } = require('mongodb');
